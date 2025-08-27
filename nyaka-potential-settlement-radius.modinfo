@@ -21,9 +21,6 @@
                 <LoadOrder>1001</LoadOrder>
             </Properties>
 			<Actions>
-				<ImportFiles>
-                    <Item>ui/input/plot-cursor.js</Item>
-				</ImportFiles>
                 <UIScripts>
                     <Item>ui/input/settlement-radius-cursor.js</Item>
                 </UIScripts>
