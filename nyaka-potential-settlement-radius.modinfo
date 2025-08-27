@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="nyaka-potential-settlement-radius" version="1000101"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>Potential Settlement Radius Highlight</Name>
+		<Version>0.1.1</Version>
+		<Description>While using settler lens this mod adds a settlement radius highlight around the hovered plot tile to help you see what tiles can be worked from your future city. Find a perfect spot!</Description>
+		<Authors>Nyaka</Authors>
+		<AffectsSavedGames>0</AffectsSavedGames>
+	</Properties>
+	<Dependencies>
+	</Dependencies>
+	<ActionCriteria>
+		<Criteria id="always" any="true">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup id="nyaka-settlement-radius" scope="game" criteria="always">
+            <Properties>
+                <LoadOrder>1001</LoadOrder>
+            </Properties>
+			<Actions>
+				<ImportFiles>
+                    <Item>ui/input/plot-cursor.js</Item>
+				</ImportFiles>
+                <UIScripts>
+                    <Item>ui/input/settlement-radius-cursor.js</Item>
+                </UIScripts>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+</Mod>
