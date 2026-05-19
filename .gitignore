@@ -1,0 +1,8 @@
+*
+!ui
+!ui/**
+!images
+!images/**
+!nyaka-potential-settlement-radius.modinfo
+!README.md
+!.gitignore
