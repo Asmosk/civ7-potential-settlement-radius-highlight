@@ -5,7 +5,7 @@
  */
 
 import {PlotCursorUpdatedEventName} from '/core/ui/input/plot-cursor.js';
-import {a as LensActivationEventName} from '/core/ui/lenses/lens-manager.chunk.js'
+import {LensActivationEventName} from '/core/ui/lenses/lens-manager.js'
 
 class SettlementRadiusCursorSingleton {
     static Instance;
